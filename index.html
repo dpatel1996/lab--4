@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="en" class="nobjs">
+<head>
+  <title>HTML Form Elements </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+</head>
+<body>
+  <main id="content">
+    <form method="get" action="#null">
+      <h1> Soccer News 24.7 </h1>
+      <p> Sign up for the soccer updates and latest news. Get all the breaking 
+      news and all the scores over here. </p>
+      
+      <ol>
+        <li id="input-email">
+          <label for="email"> Email </label>
+          <input type="email" name="email" id="email" pattern="^.+@$" />
+        </li>
+        
+        <li id="input-age-verification">
+          <input type="checkbox" id="age-verification" name="age=verification" value="18" />
+          <label for="age-verification"> I consent i am  18 years or above age. </label>
+        </li>
+        
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Join Us" />
+        </li>
+      </ol>
+    </form>
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
