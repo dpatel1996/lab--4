@@ -246,7 +246,7 @@ input[type="email"]{
 
 input[type="checkbox"]{
   width: 1.2em;
-  height: 1.2em;
+  height: 1em;
   float: left;
   display: inline; 
   border: 2px solid black;
