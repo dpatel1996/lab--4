@@ -241,7 +241,13 @@ body{
   margin: auto;
 }
 
+#email, label{
+  color: #808080; /*gray*/
+}
 
+#submit, input{
+  color: 	#FF1493; /*DeepPink*/
+}
 input[type="email"]{
   padding-bottom: 1.3em;
 }
