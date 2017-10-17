@@ -216,10 +216,12 @@ body{
    font-size: 1.7em;
    padding-bottom: 0.9em;
    font-weight: 650; 
+   color: green;
  }
  
  p{
    padding-bottom: 0.8em; 
+   color: blue; 
  }
  
  input{
@@ -265,4 +267,5 @@ form li{
 #age-verification + label{
   display: block;
   padding-left: 25px;
+  color: red;
 }
