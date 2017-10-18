@@ -239,6 +239,7 @@ body{
 #input-submit{
   width: 100%;
   margin: auto;
+  height: 100%;
 }
 
 #email, label{
@@ -248,6 +249,7 @@ body{
 #submit, input{
   color: 	#FF1493; /*DeepPink*/
 }
+
 input[type="email"]{
   padding-bottom: 1.3em;
 }
@@ -262,8 +264,7 @@ input[type="checkbox"]{
 
 input[type="submit"]{
   font-family: 'Courier New', monospace;
-  font-size: 2em;
-  /* display: block; */
+  font-size: 1.5em;
 }
 
 /* --- MODULAR STYLES----*/
